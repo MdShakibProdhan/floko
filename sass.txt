@@ -1,0 +1,8 @@
+sass --watch C:\xampp\htdocs\html-project\bootstrap-starter-pack\assets\scss\main.scss:C:\xampp\htdocs\html-project\bootstrap-starter-pack\assets\css\main.css
+
+
+Linux 
+sass --watch /home/shakib/www/soclose/assets/scss/main.scss:/home/shakib/www/soclose/assets/css/main.css
+
+// if minify css
+--style=compressed && postcss

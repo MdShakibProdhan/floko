@@ -1,0 +1,28 @@
+@use "common" as *;
+
+.schedule-area {
+    background-color: #1d1d1d;
+    padding-bottom: 150px;
+
+}
+
+.schedule-slider-item {
+    max-width: 670px;
+    width: 100%;
+
+    .schedule-slider-head {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.schedule-slider-content {
+
+
+    .schedule-slider-content-item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
