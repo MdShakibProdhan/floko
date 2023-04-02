@@ -143,3 +143,45 @@
 .item-img {
     z-index: 9999;
 }
+
+.schedule-head {
+    h2 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 76px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #BFBFBF;
+    }
+
+    button {
+        margin-top: 34px;
+        padding: 20px 40px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 130px;
+
+        &:hover {
+            background: #70d18c;
+            color: black;
+        }
+    }
+}
