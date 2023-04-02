@@ -398,7 +398,7 @@ label {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 1000000000000000000000000;
 }
 
 .main-menu {
@@ -1016,7 +1016,6 @@ label {
 
 .schedule-area {
   background-color: #1d1d1d;
-  padding-bottom: 150px;
 }
 
 .schedule-slider-item {
@@ -1033,7 +1032,7 @@ label {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 44px;
+  margin-bottom: 37px;
 }
 .schedule-slider-content .schedule-slider-content-item .schedule-slider-content-item-left {
   max-width: 137px;
@@ -1063,6 +1062,20 @@ label {
   font-size: 14px;
   line-height: 24px;
   color: #BFBFBF;
+}
+
+.schedule-single-slide {
+  position: relative;
+}
+.schedule-single-slide .single-slider-bg-shape {
+  position: absolute;
+  left: 179px;
+  top: 19px;
+  z-index: 999;
+}
+
+.item-img {
+  z-index: 9999;
 }
 
 .testimonial-area {

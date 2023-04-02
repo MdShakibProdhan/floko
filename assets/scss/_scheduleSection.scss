@@ -2,7 +2,7 @@
 
 .schedule-area {
     background-color: #1d1d1d;
-    padding-bottom: 150px;
+    // padding-bottom: 150px;
 
 }
 
@@ -24,7 +24,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 44px;
+        margin-bottom: 37px;
 
         .schedule-slider-content-item-left {
             max-width: 137px;
@@ -60,4 +60,19 @@
             }
         }
     }
+}
+
+.schedule-single-slide {
+    position: relative;
+
+    .single-slider-bg-shape {
+        position: absolute;
+        left: 179px;
+        top: 19px;
+        z-index: 999;
+    }
+}
+
+.item-img {
+    z-index: 9999;
 }

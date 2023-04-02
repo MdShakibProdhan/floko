@@ -65,3 +65,5 @@ $('.spiderman-slider').slick({
         return '<button data-title="' + title + '"></button>';
     }
 });
+
+
