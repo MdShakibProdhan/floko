@@ -1033,6 +1033,36 @@ label {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 44px;
+}
+.schedule-slider-content .schedule-slider-content-item .schedule-slider-content-item-left {
+  max-width: 137px;
+  width: 100%;
+}
+.schedule-slider-content .schedule-slider-content-item .schedule-slider-content-item-left p {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #BFBFBF;
+}
+.schedule-slider-content .schedule-slider-content-item .schedule-slider-content-item-right {
+  max-width: 445px;
+  width: 100%;
+}
+.schedule-slider-content .schedule-slider-content-item .schedule-slider-content-item-right h3 {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.schedule-slider-content .schedule-slider-content-item .schedule-slider-content-item-right p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #BFBFBF;
 }
 
 .testimonial-area {
