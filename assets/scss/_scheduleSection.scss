@@ -6,6 +6,8 @@
 
 }
 
+
+// slider head er scss
 .schedule-slider-item {
     max-width: 670px;
     width: 100%;
@@ -13,10 +15,75 @@
     .schedule-slider-head {
         width: 100%;
         display: flex;
+        align-items: flex-start;
         justify-content: space-between;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #FFFFFF;
+        margin-bottom: 44px;
+
+
+        .slick-list {
+            padding: 0 !important;
+
+            // .slick-track {
+            //     .slick-current {
+            //         .head-item {
+            //             h3 {
+            //                 color: red;
+            //             }
+            //         }
+            //     }
+            // }
+        }
+
+        .head-item {
+            margin-right: 40px;
+
+            h3 {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 18px;
+                color: #5e5e5e;
+            }
+
+            p {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #5e5e5e;
+
+                span {
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 28px;
+                    color: #5e5e5e;
+                }
+            }
+        }
     }
 }
 
+.slick-current.head-item {
+    h3 {
+        color: #FFFFFF !important;
+    }
+
+    p {
+        color: #BFBFBF !important;
+
+        span {
+            color: #FFFFFF !important;
+        }
+    }
+}
+
+// ....................................
 .schedule-slider-content {
 
 

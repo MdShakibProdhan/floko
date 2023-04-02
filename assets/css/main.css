@@ -1025,7 +1025,51 @@ label {
 .schedule-slider-item .schedule-slider-head {
   width: 100%;
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FFFFFF;
+  margin-bottom: 44px;
+}
+.schedule-slider-item .schedule-slider-head .slick-list {
+  padding: 0 !important;
+}
+.schedule-slider-item .schedule-slider-head .head-item {
+  margin-right: 40px;
+}
+.schedule-slider-item .schedule-slider-head .head-item h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #5e5e5e;
+}
+.schedule-slider-item .schedule-slider-head .head-item p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5e5e5e;
+}
+.schedule-slider-item .schedule-slider-head .head-item p span {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #5e5e5e;
+}
+
+.slick-current.head-item h3 {
+  color: #FFFFFF !important;
+}
+.slick-current.head-item p {
+  color: #BFBFBF !important;
+}
+.slick-current.head-item p span {
+  color: #FFFFFF !important;
 }
 
 .schedule-slider-content .schedule-slider-content-item {

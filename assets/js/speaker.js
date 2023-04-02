@@ -52,18 +52,55 @@ $('.testimonial-content').slick({
     }
 });
 
-$('.spiderman-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
+{/* <div class="slider slider-for">
+  <div>
+    <h3>1</h3></div>
+  <div>
+    <h3>2</h3></div>
+  <div>
+    <h3>3</h3></div>
+ 
+</div>
+<div class="slider slider-nav">
+  <div>
+    <h3>11</h3></div>
+  <div>
+    <h3>22</h3></div>
+  <div>
+    <h3>33</h3></div>
+
+</div> */}
+
+// $(function() {
+//     $('.slider-for').slick({
+//       slidesToShow: 1,
+//       slidesToScroll: 1,
+//       arrows: false,
+//       fade: true,
+//       asNavFor: '.slider-nav'
+//     });
+//     $('.slider-nav').slick({
+//       slidesToShow: 3,
+//       slidesToScroll: 1,
+//       asNavFor: '.slider-for',
+//       dots: true,
+//       // centerMode: true,
+//       focusOnSelect: true
+//     });
+//   });
+
+$('.schedule-slider-content').slick({
     slidesToShow: 1,
-    variableWidth: true,
-    appendDots: $('.spiderman-slider'),
-    customPaging: function (slider, i) {
-        var slide = slider.$slides[i],
-            title = $(slide).find('h3').text();
-        return '<button data-title="' + title + '"></button>';
-    }
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.schedule-slider-head'
 });
-
-
+$('.schedule-slider-head').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.schedule-slider-content',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true
+});
